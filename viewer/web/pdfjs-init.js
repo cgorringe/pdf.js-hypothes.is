@@ -53,7 +53,8 @@ document.addEventListener('webviewerloaded', function(event) {
 
     // Load the Hypothesis client.
     var embedScript = document.createElement('script');
-    embedScript.src = 'https://hypothes.is/embed.js';
+    //embedScript.src = 'https://hypothes.is/embed.js';
+    embedScript.src = 'https://carl.gorringe.org/pub/apps/hypothesis-client/build/boot.js'; // [CG]
     document.body.appendChild(embedScript);
   });
 });
