@@ -14,9 +14,11 @@
  */
 
 /* added by [CG] */
+/*
 hypothesis-highlight.hypothesis-highlight.is-transparent {
   background-color: #00f5 !important;
 }
+*/
 hypothesis-highlight:hover {
   border-bottom: 3px solid #44f;
 }
